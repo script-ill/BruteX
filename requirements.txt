@@ -1,0 +1,7 @@
+requests
+colorama
+paramiko                                                                pymysql
+pg8000
+pymongo
+ldap3
+impacket                                                                pycryptodome
