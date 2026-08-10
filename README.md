@@ -41,8 +41,8 @@
 
 ```bash
 # 1. Clone / copy the project
-git clone https://github.com/script-ill/Brutex.git
-cd brutex
+git clone https://github.com/script-ill/BruteX.git
+cd BruteX
 
 # 2. Install required dependencies
 pip install requests colorama
