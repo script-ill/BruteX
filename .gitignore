@@ -1,0 +1,66 @@
+# ── Python ───────────────────────────────────────────────             __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/                                                                   downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/                                                                  sdist/
+var/                                                                    wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ── Virtual environments ─────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+.python-version
+
+# ── BruteX runtime artifacts ─────────────────────────────
+# (test results & config — do NOT commit credentials or target data!)
+brutex_config.json
+brutex_hits_*.txt
+brutex_report_*.json
+results/
+output/
+reports/
+
+# ── Wordlists / credential material (keep out of git!) ──
+wordlists/
+*.txt
+!requirements.txt
+!README.md
+!ABOUT.md
+*.lst
+*.dic
+
+# ── Editors & OS ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# ── Testing / CI ─────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
